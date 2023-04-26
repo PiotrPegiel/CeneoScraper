@@ -18,3 +18,8 @@
 ## Wykorzystane biblioteki
 - BeautifoulSoup4
 - Requests
+- Json
+- Os
+- Pandas
+- Numpy
+- Matplotlib

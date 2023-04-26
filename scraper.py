@@ -48,5 +48,5 @@ while(url):
         url = f"https://www.ceneo.pl" + extract_tag(page_dom, ".pagination__next", "href")
     except TypeError:
         url = None
-with open(f"./opinions//{product_code}", "w", encoding="UTF-8") as file:
+with open(f"./opinions//{product_code}.json", "w", encoding="UTF-8") as file:
     json.dump(all_opinions, file, indent=4, ensure_ascii=False)
